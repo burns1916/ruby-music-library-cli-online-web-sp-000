@@ -9,9 +9,9 @@ class Song
     @name = name
     if artist
       self.artist = artist
+    end
     if genre
       self.genre = genre
-    end
     end
     @@all << self
     end

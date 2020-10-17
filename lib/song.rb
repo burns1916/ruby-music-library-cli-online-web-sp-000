@@ -60,7 +60,6 @@ class Song
     song = filename.split(" - ")[1]
     artist = filename.split(" - ")[0]
     genre = filename.split( " - ")[2]
-    binding.pry
     new_song = self.new(song, artist, genre)
   end
 end

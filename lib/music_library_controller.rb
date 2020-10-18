@@ -21,7 +21,9 @@ class MusicLibraryController
   end
 
   def list_songs
-
+    Song.all.each do |songs|
+      puts songs.name
+    end
   end
 
 

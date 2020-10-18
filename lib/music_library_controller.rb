@@ -21,7 +21,7 @@ class MusicLibraryController
   end
 
   def list_songs
-    prints Song.all
+    puts Song.all
   end
 
 

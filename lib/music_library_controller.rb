@@ -22,6 +22,7 @@ class MusicLibraryController
 
   def list_songs
     prints Song.all
+  end
 
 
 end
